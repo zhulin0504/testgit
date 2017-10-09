@@ -1,0 +1,16 @@
+﻿面试题
+1.&和&&有什么区别？
+eg. public class Test{
+	public static void main(String[] args){
+		String str=null; 
+		if(str!=null && !"".equals(str)){
+			
+		}
+		if(str!=null & !"".equals(str)){	
+		}
+	}
+}
+&&当str!=null的时候才会执行!"".equals(str)，当str!=null为false时则不会执行。
+而&不管前面是否成立都会执行。
+2.""和null的区别??
+null是null对象，""是空字符串，null可以赋值任何对象，""只能赋值String对象。
