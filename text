@@ -14,3 +14,9 @@ eg. public class Test{
 而&不管前面是否成立都会执行。
 2.""和null的区别??
 null是null对象，""是空字符串，null可以赋值任何对象，""只能赋值String对象。
+&&当str!=null的时候才会执行!"".equals(str)，当str!=null为false时则不会执行。
+而&不管前面是否成立都会执行。
+2.""和null的区别??
+null是null对象，""是空字符串，null可以赋值任何对象，""只能赋值String对象。
+
+
